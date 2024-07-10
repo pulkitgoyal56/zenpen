@@ -17,7 +17,7 @@ ZenPen.ui = (function() {
 	var expandScreenIcon = '&#xe000;';
 	var shrinkScreenIcon = '&#xe004;';
 
-	var darkLayout = true;
+	var darkLayout = false;
 
 	function init() {
 		
@@ -45,7 +45,7 @@ ZenPen.ui = (function() {
 		}
 
 		// Activate color switch
-		if ( localStorage['darkLayout'] === 'true' || localStorage['darkLayout'] === undefined) {
+		if ( localStorage['darkLayout'] === 'true') {
 			if ( darkLayout === false ) {
 				document.body.className = 'yang';
 			} else {
