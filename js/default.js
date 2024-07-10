@@ -1,2 +1,2 @@
-var defaultTitle = '';
-var defaultContent = '';
+var defaultTitle = '•ᴗ•';
+var defaultContent = 'You can write here!';
