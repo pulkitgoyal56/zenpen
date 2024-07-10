@@ -45,7 +45,7 @@ ZenPen.ui = (function() {
 		}
 
 		// Activate color switch
-		if ( localStorage['darkLayout'] === 'true' ) {
+		if ( localStorage['darkLayout'] === 'true' || localStorage['darkLayout'] === undefined) {
 			if ( darkLayout === false ) {
 				document.body.className = 'yang';
 			} else {
