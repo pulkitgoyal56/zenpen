@@ -17,7 +17,7 @@ ZenPen.ui = (function() {
 	var expandScreenIcon = '&#xe000;';
 	var shrinkScreenIcon = '&#xe004;';
 
-	var darkLayout = false;
+	var darkLayout = true;
 
 	function init() {
 		
