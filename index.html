@@ -1,8 +1,12 @@
+---
+layout: plain
+---
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<!-- MISC/META -->
-		<title>ZenPen ~ Minimal Distraction, Maximum Zen</title>
+		<title>ZenPen</title>
 		<meta charset="utf-8" />
 		<meta
 			name="description"
@@ -81,13 +85,6 @@
 				</div>
 
 				<div class="bottom">
-					<a
-						class="about"
-						href="https://www.buymeacoffee.com/tholman"
-						target="_blank"
-					>
-						☕
-					</a>
 				</div>
 			</div>
 		</div>
@@ -112,23 +109,14 @@
 		<script src="js/editor.js"></script>
 		<script src="js/ui.js"></script>
 		<script type="text/javascript">
-			// Initiate ZenPen
 			ZenPen.editor.init();
 			ZenPen.ui.init();
 		</script>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script
-			async
-			src="https://www.googletagmanager.com/gtag/js?id=UA-38039699-1"
-		></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag("js", new Date());
 
-			gtag("config", "UA-38039699-1");
-		</script>
+		<!-- LICENSE -->
+		<div style="text-align: right;">
+			Adapted from <a href="https://github.com/tholman/zenpen">github.com/tholman/zenpen</a> (<a href="license.md">License</a>)<br>
+			<!-- Copyright (C) 2016 ~ <a href="http://tholman.com">Tim Holman</a> ~ timothy.w.holman@gmail.com -->
+		</div>
 	</body>
 </html>
